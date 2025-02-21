@@ -1,0 +1,87 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Quiz container */
+section {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Question & Answer styling */
+#questions-container,
+#answers-container {
+  margin: 20px 0;
+  padding: 15px;
+  background: #e0e0e0;
+  border-radius: 8px;
+}
+
+#answers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#next-btn {
+  background: #007bff;
+  color: white;
+}
+
+#next-btn:hover {
+  background: #0056b3;
+}
+
+#reset-btn {
+  background: #dc3545;
+  color: white;
+  margin-top: 10px;
+}
+
+#reset-btn:hover {
+  background: #a71d2a;
+}
+
+/* Score Display */
+#score-display {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #ff4d4d; /* Red background to indicate urgency */
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: fit-content;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
